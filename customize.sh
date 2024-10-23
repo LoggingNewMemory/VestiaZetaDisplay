@@ -28,7 +28,7 @@ ui_print "-----------------🗡-----------------"
 ui_print "            MODULE INFO             "
 ui_print "-----------------🗡-----------------"
 ui_print "Name : Vestia Zeta 120 Hz Refresh Rate"
-ui_print "Version : V 1.0"
+ui_print "Version : V 2.0"
 ui_print "Support Device : MT 6833 / D 6080"
 ui_print "Support Root : Magisk / KernelSU"
 ui_print " "
@@ -36,6 +36,7 @@ sleep 1.5
 
 ui_print "    DO NOT INSTALL IF YOUR PHONE    "
 ui_print "     DOESN'T HAVE 120 Hz SCREEN     "
+ui_print " "
 
 sleep 3
 ui_print "       INSTALLING VESTIA ZETA       "
@@ -48,4 +49,4 @@ set_perm_recursive $MODPATH/VestiaZeta 0 0 0755 0644
 ui_print "     CAT INSTALLED SUCCESSFULLY     "
 sleep 1.5
 
-am start -a android.intent.action.VIEW -d https://t.me/KanagawaLabAnnouncement/155 >/dev/null 2>&1
+am start -a android.intent.action.VIEW -d https://t.me/KanagawaLabAnnouncement/156 >/dev/null 2>&1
