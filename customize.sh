@@ -5,8 +5,6 @@ ui_print "  Vestia Zeta 120 Hz Refresh Rate   "
 ui_print "🗡--------------------------------🗡"
 ui_print "         By: Kanagawa Yamada        "
 ui_print "------------------------------------"
-ui_print "      READ THE TELEGRAM MESSAGE     "
-ui_print "------------------------------------"
 ui_print " "
 sleep 1.5
 
@@ -28,7 +26,7 @@ ui_print "-----------------🗡-----------------"
 ui_print "            MODULE INFO             "
 ui_print "-----------------🗡-----------------"
 ui_print "Name : Vestia Zeta 120 Hz"
-ui_print "Version : V 3.0"
+ui_print "Version : 4.0"
 ui_print "Support Root : Magisk / KernelSU"
 ui_print " "
 sleep 1.5
@@ -47,5 +45,3 @@ set_perm_recursive $MODPATH/VestiaZeta 0 0 0755 0644
 
 ui_print "     CAT INSTALLED SUCCESSFULLY     "
 sleep 1.5
-
-am start -a android.intent.action.VIEW -d https://t.me/KanagawaLabAnnouncement/284 >/dev/null 2>&1
