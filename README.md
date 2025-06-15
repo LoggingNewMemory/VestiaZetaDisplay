@@ -3,4 +3,7 @@
 # Vestia Zeta Display
 Makes your screen smooth + Set highest display refresh rate
 
+How to Use?
+- It's a module. Flash it
+
 Zeta image source: [HERE](https://virtualyoutuber.fandom.com/wiki/Vestia_Zeta/Gallery)
