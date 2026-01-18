@@ -16,3 +16,20 @@ sys.surfaceflinger.idle_reduce_framerate_enable=no
 ro.max.fling_velocity=10000
 ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 ro.surface_flinger.max_virtual_display_dimension=1920
+
+############################
+# Zeta 7.0
+############################
+
+debug.sf.disable_backpressure=1
+debug.sf.disable_hwc=1
+debug.sf.latch_unsignaled=1
+debug.sf.disable_client_composition_cache=1
+ro.surface_flinger.use_color_management=false
+ro.surface_flinger.has_wide_color_display=false
+ro.surface_flinger.has_hdr_display=false
+persist.sys.sf.native_mode=1
+vendor.debug.mali.disable_afbc=1
+ro.vendor.ddk.set.afbc=0
+debug.gralloc.map_fb_memory=1
+debug.gralloc.enable_fb_ubwc=0
